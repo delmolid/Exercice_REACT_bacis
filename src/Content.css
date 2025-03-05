@@ -1,0 +1,36 @@
+.Content {
+    position: fixed;
+    top: 150px; /* Même niveau que la SideBar */
+    left: 20px;
+    transform: translateY(10%);
+    width: calc(100% - 300px); /* Largeur totale moins la SideBar et les marges */
+    height: calc(100vh - 170px);
+    padding: 15px;
+    display: flex; /* Active Flexbox */
+    flex-flow: row wrap; /* Alignement horizontal avec retour à la ligne */
+    gap: 20px; /* Espace entre les éléments */
+    overflow-y: auto; /* Permet le défilement si nécessaire */
+}
+
+.Content p {
+    word-wrap: break-word; /* Permet le retour à la ligne des mots longs */
+    white-space: pre-wrap; /* Respecte les espaces et retours à la ligne */
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.Content li {
+    list-style: none;
+    border-radius: 10px;
+    background-color: grey;
+    padding: 10px;
+    margin: 0; /* Supprimé car on utilise gap */
+    width: 200px;
+    height: 200px;
+    /* Optionnel : animation au survol */
+    transition: transform 0.2s ease;
+}
+
+.Content li:hover {
+    transform: scale(1.02);
+}

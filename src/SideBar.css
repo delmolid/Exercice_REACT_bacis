@@ -1,0 +1,14 @@
+.SideBar {
+    position: fixed;
+    top: 150px; /* Commence après le logo et la navbar */
+    right: 15px;
+    width: 250px; /* Largeur fixe pour le menu */
+    height: calc(100vh - 150px); /* Prend toute la hauteur restante */
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+

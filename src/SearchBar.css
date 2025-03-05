@@ -1,0 +1,19 @@
+.SearchBar {
+        position: absolute;
+        top: 80px; /* Pour le placer sous le logo */
+        left: 15%;
+        transform: translateX(-80%); /* Centre horizontalement */
+        transform: translateY(100%); /* Centre verticalement */
+        background-color: grey;
+        padding: 15px;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        width: 60%; /* Ajustez selon vos besoins */
+        text-align: center;
+    }
+    
+    .NavBar:hover {
+        background-color: #444;
+        transition: background-color 0.3s ease;
+    }
