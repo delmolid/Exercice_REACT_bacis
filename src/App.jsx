@@ -7,6 +7,7 @@ import NavBar from './NavBar.jsx'
 import SearchBar from './SearchBar.jsx'
 import Content from './Content.jsx'
 import SideBar from './SideBar.jsx'
+;
 
 function App() {
   return (

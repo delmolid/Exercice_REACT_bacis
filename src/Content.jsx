@@ -21,20 +21,7 @@ class Content extends React.Component {
                 <li>
                     <p>Content</p>
                 </li>
-                <li>
-                    <p>Content</p>
-                </li>
-                <li>
-                    <p>Content</p>
-                </li>
-               
-               
-               
-               
-                
-                
 
-            
             </div>
         )
     }

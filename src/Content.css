@@ -1,15 +1,13 @@
 .Content {
     position: fixed;
-    top: 150px; /* Même niveau que la SideBar */
+    top: 180px;
     left: 20px;
-    transform: translateY(10%);
-    width: calc(100% - 300px); /* Largeur totale moins la SideBar et les marges */
-    height: calc(100vh - 170px);
-    padding: 15px;
-    display: flex; /* Active Flexbox */
-    flex-flow: row wrap; /* Alignement horizontal avec retour à la ligne */
-    gap: 20px; /* Espace entre les éléments */
-    overflow-y: auto; /* Permet le défilement si nécessaire */
+    width: calc(100% - 200px);
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    overflow-y: auto;
 }
 
 .Content p {
@@ -21,14 +19,31 @@
 
 .Content li {
     list-style: none;
-    border-radius: 10px;
-    background-color: grey;
-    padding: 10px;
-    margin: 0; /* Supprimé car on utilise gap */
-    width: 200px;
-    height: 200px;
-    /* Optionnel : animation au survol */
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(25% - 20px);
+    height: 150px;
+    position: relative;
+    margin-bottom: 10px;
     transition: transform 0.2s ease;
+}
+
+/* Ajustement du bouton like pour les blocs plus petits */
+.Content li::after {
+    content: '♡';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 .Content li:hover {

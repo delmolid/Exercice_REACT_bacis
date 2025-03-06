@@ -1,18 +1,21 @@
 .logo {
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 20px;
+    background-color: #e0e0e0;
+    padding: 40px;
+    border-radius: 8px;
+    width: 20px;
+    height: 10px;
 }
 
 .logo h1 {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    padding: 10px;
-    transition: all 0.3s ease;
-    border-radius: 10px;
-    background-color: grey;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #333;
+    font-size: 30px;
+    text-align: center;
 }
 
 .logo h1:hover {

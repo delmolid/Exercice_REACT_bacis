@@ -1,15 +1,16 @@
 .NavBar {
     position: absolute;
-    top: 20px; /* Pour le placer sous le logo */
-    left: 50%;
-    transform: translateX(-50%); /* Centre horizontalement */
-    background-color: grey;
+    top: 20px;
+    left: 160px; /* Juste après le logo */
+    background-color: #e0e0e0;
     padding: 15px;
     border-radius: 8px;
-    color: white;
+    color: #333;
     font-weight: bold;
-    width: 60%; /* Ajustez selon vos besoins */
-    text-align: center;
+    width: calc(100% - 200px); /* Largeur totale moins espace pour logo */
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
 }
 
 .NavBar:hover {

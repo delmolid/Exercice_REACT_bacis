@@ -4,8 +4,8 @@ import './SearchBar.css';
 class SearchBar extends React.Component {
     render(){
         return (
-            <div className="SearchBar">
-                SearchBar
+            <div className="SearchBar">SearchBar
+               <i className="fa fa-search"></i>
             </div>
         )
     }

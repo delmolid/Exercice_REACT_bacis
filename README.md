@@ -1,12 +1,43 @@
-# React + Vite
+# AirBnB Clone - Interface Utilisateur
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Description du Projet
+Ce projet est une reproduction simplifiée de l'interface utilisateur d'AirBnB, réalisé dans le cadre d'un exercice de développement front-end.
+ L'objectif était de reproduire le mockup fourni en utilisant React.js comme framework de choix.
 
-Currently, two official plugins are available:
+## 🎯 Objectif
+"Reprends le mockup vu ci-dessus et essaye de le reproduire simplement en adoptant le framework que tu souhaites."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies Utilisées
+- **React.js** - Framework JavaScript pour la construction de l'interface
+- **Vite** - Outil de build moderne pour le développement
+- **CSS3** - Pour le styling et la mise en page
+- **Font Awesome** - Pour les icônes
 
-## Expanding the ESLint configuration
+## 🏗 Structure du Projet
+- `Logo` - Logo situé en haut à gauche
+- `NavBar` - Barre de navigation principale
+- `SearchBar` - Barre de recherche centrale
+- `Content` - Zone de contenu principale avec affichage en grille
+- `SideBar` - Barre latérale droite
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+1. Installer les dépendances
+
+```bash
+npm install
+```
+
+3. Lancer le projet 
+
+```bash
+npm run dev
+``` 
+
+
+
+## 🔗 Liens
+- GitHub Repository: [votre-lien-github]
+
+## 👤 Auteur
+- Molid NOUR AWALEH
+- GitHub: @delmolid
